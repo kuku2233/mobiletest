@@ -1,0 +1,182 @@
+
+body{
+    margin:0 auto;
+    font-family:'Lexend';
+    font-size:22px;
+    background: url(	https://mobirise.com/extensions/glassm5/corporate/assets/images/mbr.jpg) no-repeat center;
+    transition: 0.6s;
+}
+header{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.8) 100%);
+    backdrop-filter: blur(2.5px);
+    height:90px;
+}
+a{
+    cursor:pointer;
+    margin: 0;
+    padding:18px;
+    transition: 0.2s;
+}
+a:hover{
+    color: #2a4559 !important;
+}
+.logo-header{
+    cursor:pointer;
+    padding-top:22px;
+    font-size:29px;
+
+}
+.header-div{
+    padding:0px 92px 19 35px;
+    color: #4a6586 !important;
+    display:flex;
+    justify-content: space-between;
+}
+.menu-header{
+    display:flex;
+    justify-content: space-between;
+    flex:1;
+    max-width:580px;
+    padding-top:7px;
+    margin-left:30px;
+}
+.button-header{
+    max-width: 123px;
+    padding-top:20px;
+    transition: 0.2s;
+}
+.button-header:hover{
+    padding-top: 17px;
+}
+.button-menu{
+    cursor:pointer;
+    font-family:'Lexend';
+    color: #fff!important;
+    font-size:16px;
+    height:43px;
+    width:123px;
+    border-radius: 50px;
+    border:none;
+    background: rgb(64,111,167);
+    background: linear-gradient(90deg, rgba(64,111,167,1) 0%, rgba(147,138,193,1) 100%);
+}
+.button-block{
+    cursor:pointer;
+    font-family:"Lexend";
+    color: #fff!important;
+    font-size:16px;
+    height:100%;
+    max-height:57px;
+    width:100%;
+    max-width:160px;
+    border-radius: 50px;
+    border:none;
+    background: rgb(64,111,167);
+    background: linear-gradient(90deg, rgba(64,111,167,1) 0%, rgba(147,138,193,1) 100%);
+    margin:50px;
+    transition:0.5s;
+}
+.button-block:hover{
+    opacity: 0.8;
+    margin-top:59px;
+}
+.bg-blur{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.2) 100%);
+    backdrop-filter: blur(1.5px);
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+}
+.info-ab-c-div{
+    border-radius: 25px;
+    max-width:1980px;
+    width:100%;
+    border:1px solid rgba(255,255,255,0.3);
+    color: #2a4559;
+    display: flex;
+    justify-content: center;
+    padding:50px 140px 0 0;
+}
+.info-ab-c-div1{
+    background: rgba(255,255,255,0.5); 
+    border-radius: 25px;
+    border:1px solid rgba(255,255,255,0.3);
+    color: #2a4559;
+    height:100%;
+    width:100%;
+    max-width:860px;
+    max-height: 500px;
+}
+.h1{
+    width:540px;
+    margin:75px 40px 20px;
+    font-size:60px;
+}
+.p{
+    margin:0 40px;
+    width:500px;
+}
+
+
+@media (max-width:1920px) and (min-height:10px) and (max-height:872px){
+    body{
+        font-size:14px;
+    }
+    .logo-header{
+        font-size:19px;
+        padding-left: 12px;
+        padding-top:14px;
+        width:60px;
+    }
+    .header-div{
+    padding:0px 0px;
+ }
+    a{  
+        padding:10px 5px;
+    }
+    .menu-header{
+        margin-right:20px;
+    }
+    .button-menu{
+    font-family:'Lexend';
+    font-size:12px;
+    height:30px;
+    width:90px;
+    }
+    .button-header{
+    padding-top:13px;}
+    header{
+        height:54px;
+    }
+    .info-ab-c-div{
+        margin-top: 20px;
+        width:100%;
+        border:1px solid rgba(255,255,255,0.3);
+        color: #2a4559;
+        padding:0;
+    }
+    .info-ab-c-div1{
+        background: rgba(255,255,255,0.5);
+        border-radius: 25px;
+        border:1px solid rgba(255,255,255,0.3);
+        color: #2a4559;
+        height:100%;
+        width:100%;
+        max-width:860px;
+        max-height: 280px;
+    }
+   .h1{
+        font-size:20px;
+        margin:20px;
+    }
+    .p{
+        font-size:14px;
+        margin:20;
+        width:400px;
+    }
+    .button-block{
+        margin:30px 140px;
+    }
+    
+}
